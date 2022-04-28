@@ -1,0 +1,73 @@
+{
+  "device": {
+    "ro_product_provider": "T-Mobile",
+    "ro_product_brand": "sumsung",
+    "ro_product_name": "samsung",
+    "ro_product_model": "Samsang-galaxy s6",
+    "ro_product_board": "SM-N910G",
+    "java_vm_version": "1.6.0",
+    "ro_product_instructions": "armeabi-v7:armeabi",
+    "ro_build_version_release": "6.0",
+    "ro_build_id": "samsung",
+    "ro_build_version_incremental": "C00B115",
+    "ro_build_version_sdk": "17",
+    "locale": "en_US",
+    "offset": "-240",
+    "density": 2.0,
+    "width": 540,
+    "height": 540,
+    "operator": "T-Mobile",
+    "mcc": 311,
+    "mnc": 480,
+    "total_memory": 489578496,
+    "used_memory": 220432562,
+    "ad_id": "509325ae-c1cd-4f63-8edf-c5554db59439",
+    "android_id": "0B290F19131C2E45",
+    "android_uuid": "f344c96d-00f6-4f02-a1b1-b909230ad9a1",
+    "device_id": "4c447b25-3605-4fc2-8003-e5958f9989af",
+    "serial": "34144C2024583C2F",
+    "imei": "29800d73f16d978"
+  },
+  "email": {
+    "address": "brasulmicon4943@yahoo.com",
+    "password": "hbqf47QpS"
+  },
+  "email_confirmed": true,
+  "confirmation_url": "http://click1.notify.meetmemail.com/esdlvjdytvlfjvcrftswsfvkwyfdblqbqbcjptrrrbryh_idznbmyzhvnwymbmcmnbzz.html?target=https%3A%2F%2Fgo.meetmemail.com%2Fa20218800-0cb0-43dd-b827-3ca417a5d0757%2Fa3d%2Fdd4e62c3%2Fe5c4cfd70",
+  "photoset": "C:\\Users\\Administrator\\Desktop\\Tryst\\Tryst\\bin\\Release\\data\\photosets\\julianna",
+  "payload": "jreilly424",
+  "proxy": "http://198.245.76.252:3128",
+  "password": "george",
+  "install_date": 1545957140151,
+  "profile_id": 7,
+  "has_set_profile": true,
+  "state": 2,
+  "logged_in": true,
+  "member_id": 223240899,
+  "request_token": "cbbcd461946e090c8b626ce24d6c335f",
+  "public_key": "5a43df45-3100-3ac9-c2d3-0044641784c9",
+  "private_key": "e366743d-4467-7261-141e-f70262dfde65",
+  "next_allowable_usage": "2018-12-28T01:08:24.0531651+00:00",
+  "next_allowable_set_profile": "2018-12-29T00:39:09.1252832+00:00",
+  "next_allowable_upload_photo": "2018-12-29T12:39:13.2346166+00:00",
+  "next_allowable_change_location": "2018-12-29T00:40:23.8762116+00:00",
+  "next_allowable_scrape": "2018-12-28T19:20:44.3732674+00:00",
+  "next_allowable_friend_request": "0001-01-01T00:00:00",
+  "next_allowable_icebreaker": "0001-01-01T00:00:00",
+  "next_allowable_acceptance": "0001-01-01T00:00:00",
+  "next_allowable_response": "0001-01-01T00:00:00",
+  "geolocation": {
+    "name": "10001",
+    "zipcode": "10001",
+    "latitude": "40.7506",
+    "longitude": "-73.9971",
+    "has_set": true
+  },
+  "threatmetrix": {
+    "session_id": "3be3065879194fbba55b55fa51f08b1f"
+  },
+  "adjust": {
+    "app_token": "05d79fb1c60209e5a7a2a19b00f83f74",
+    "app_adid": "05d79fb1c60209e5a7a2a19b00f83f74"
+  }
+}

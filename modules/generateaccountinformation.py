@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 
 def emoji_select():
-    with open("txts/emojis.txt", 'r') as f:
+    with open("modules/txts/emojis.txt", 'r') as f:
         emojis = f.readlines()
     random.shuffle(emojis)
     rand_emoji = emoji.emojize(emojis[0], use_aliases=True).strip('\n')
@@ -139,7 +139,7 @@ def ig_user():
     if username.strip()[-1] == '.' or username.strip()[-1] == '_':
         username = username.strip()[-1]
 
-    with open("txts/bio.txt", 'r', encoding="utf8") as f:  # gives error if not opened with utf8 encoding
+    with open("modules/txts/bio.txt", 'r', encoding="utf8") as f:  # gives error if not opened with utf8 encoding
         bios = f.readlines()  # big list of bios inside of a .txt file
 
     random.shuffle(bios)  # shuffle it, then access index -> 0 like so: bios[0] for random bio each run.

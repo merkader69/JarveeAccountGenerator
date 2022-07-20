@@ -2,7 +2,7 @@ from math import log
 
 
 # Build a cost dictionary, assuming Zipf's law and cost = -math.log(probability).
-words = open("txts/words-by-frequency.txt").read().split()
+words = open("modules/txts/words-by-frequency.txt").read().split()
 wordcost = dict((k, log((i+1)*log(len(words)))) for i, k in enumerate(words))
 maxword = max(len(x) for x in words)
 

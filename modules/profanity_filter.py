@@ -41,7 +41,7 @@ def profanityFilter(input):
     :param input: username parameter
     :return: False if username does not contain a censored word, otherwise True
     """
-    with open('txts/profanity_list.txt', 'r') as file_read:
+    with open('modules/txts/profanity_list.txt', 'r') as file_read:
         bad_words = file_read.read().splitlines()
     name_infer = infer_spaces(input.lower())
     t_f = bool(set(name_infer).intersection(bad_words))  # true or false
@@ -53,7 +53,7 @@ def nameFilter(input):
     :param input: first name parameter
     :return: False if name does not contain a boys name(obviously), otherwise True
     """
-    with open('txts/bad_names.txt', 'r') as file_read:
+    with open('modules/txts/bad_names.txt', 'r') as file_read:
         bad_names = file_read.read().splitlines()
     name_infer = infer_spaces(input.lower())
     t_f = bool(set(name_infer).intersection(bad_names))  # true or false
